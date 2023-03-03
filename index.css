@@ -1,0 +1,13 @@
+.navbar{
+
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    background-image: url(beach-6282284_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
