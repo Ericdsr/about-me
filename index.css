@@ -5,7 +5,6 @@
     color: white;
     text-align: center;
     justify-content: space-around;
-    background-color: rgba(15, 15, 15, 0.692);
 }
 
 li{
@@ -35,6 +34,8 @@ footer{
     position: absolute;
     bottom: 0;
     color: white;
+    width: 100%;
+    text-align: end;
 }
 .ahref{
     color: white;
