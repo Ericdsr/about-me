@@ -42,20 +42,33 @@ footer{
     color: white;
 }
 .photo{
-    margin-top: 5%;
-    padding: 0px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 300px;
-    height: 300px;
-
 }
 .photo img{
-    width: 300px;
-    height: 300px;
+    height: 250px;
+    width: 250px;
+    border-radius: 3%;
 }
-.photo h1{
-    margin: 0px;
-    padding: 0px;
+.gauche{
+    height: 250px;
+    width: 250px;
+}
+.droite{
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    gap: 25%;
+    margin-top: 5%;
+}
+.textdroit{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color : rgba(0,0,0,0.79);
+    border-radius: 10%;
+    padding-top: 37px;
 }
