@@ -23,7 +23,7 @@
 }
 
 body{
-    background-image: url(/Image/pexels-kehn-hermano-3668371.jpg);
+    background-image: url(./Image/pexels-kehn-hermano-3668371.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -108,7 +108,4 @@ table{
 .jeux img{
     width: 15%;
     height: 15%;
-}
-.perso{
-    margin-top: 5%;
 }
