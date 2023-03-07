@@ -97,3 +97,14 @@ table{
 .contenu h1{
     text-decoration: underline;
 }
+.music img{
+    width: 20%;
+    height: 20%;
+}
+.music{
+    text-align: center;
+}
+.jeux img{
+    width: 15%;
+    height: 15%;
+}
