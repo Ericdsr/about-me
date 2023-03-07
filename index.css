@@ -15,6 +15,10 @@
     
 }
 
+.navbar a:hover{
+    font-size: 32px;
+}
+
 .navbar ul{
     width: 100%;
     padding: 0%;
