@@ -7,7 +7,7 @@
     justify-content: space-around;
 }
 
-li{
+.navbar li{
     list-style-type: none;
     display: inline;
     font-size: 20px;
@@ -15,7 +15,7 @@ li{
     
 }
 
-ul{
+.navbar ul{
     width: 100%;
     padding: 0%;
     display: flex;
@@ -74,14 +74,26 @@ footer{
 .tableau img{
     width: 35%;
     height: 35%;
-    display: flex;    
 }
 .tableau{
-    border: 5px solid;
     width: 85%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    margin: 0%;
 }
 table{
-    padding: 10px;
-        border: 1px solid black;
-        border-collapse: collapse;
+    padding: 5px;
+    margin-left: 10%;
+        border: 2px solid rgb(255, 255, 255);
+}
+.contenu{
+    margin-top: 5%;
+    text-align: center;
+}
+.contenu ul{
+    list-style-type: none;
+}
+.contenu h1{
+    text-decoration: underline;
 }
