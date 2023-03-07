@@ -5,6 +5,7 @@
     color: white;
     text-align: center;
     justify-content: space-around;
+    background-color: black;
 }
 
 .navbar li{
@@ -17,6 +18,9 @@
 
 .navbar a:hover{
     font-size: 32px;
+    color: black;
+    background-color: white;
+    border-radius: 15%;
 }
 
 .navbar ul{
