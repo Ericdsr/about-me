@@ -6,7 +6,7 @@
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.1);
     width: 100%;
     max-width: 100%;
 }
@@ -67,7 +67,7 @@
 
 @media (max-width:600px) {
     .dropdown{
-        display: flex;
+        display: none;
         background: rgba(255, 255, 255, 0.1);
         width: 100%;
         border-radius: 10px;
@@ -94,13 +94,6 @@
     font-size: 20px;
     color: white;
     
-}
-
-.navbar a:hover{
-    font-size: 32px;
-    color: black;
-    background-color: white;
-    border-radius: 15%;
 }
 
 .navbar ul{
