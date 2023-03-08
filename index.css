@@ -63,6 +63,15 @@
             justify-content: flex-start;
             align-items: flex-start;
     }
+    .droite{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .photo{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width:600px) {
@@ -162,7 +171,6 @@ footer{
     height: 35%;
 }
 .tableau{
-    width: 85%;
     display: flex; 
     justify-content: center;
     align-items: center;   
@@ -170,8 +178,7 @@ footer{
 }
 table{
     padding: 5px;
-    margin-left: 10%;
-        border: 2px solid rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255 , 0.1);
 }
 .contenu{
     margin-top: 5%;
@@ -179,6 +186,7 @@ table{
 }
 .contenu ul{
     list-style-type: none;
+    padding: 0px;
 }
 .contenu h1{
     text-decoration: underline;
