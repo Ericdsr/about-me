@@ -39,6 +39,9 @@
             au travers de divers atelier effectuée. </p>
             </div>
         </div>
+        <div class="btn_darkmod">
+            <button onclick="myFunction()">Forest</button>
+        </div>
 <footer>
     <p> <i class="fa-solid fa-terminal"></i> Copyright By Eric Da Silva Rocha </p>
 </footer>
@@ -56,6 +59,10 @@
         ? 'fa-solid fa-xmark'
         : 'fa-solid fa-bars'
     }
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
 </script>
 </body>
 </html>
