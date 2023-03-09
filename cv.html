@@ -19,15 +19,15 @@
                 <li> <a href="passions.html" class="ahref"> Mes passions </a></li>
             </ul> 
             </div>
-            <div class="dropdown open">
+        <div class="dropdown open">
                 <ul>
                     <li> <a href="index.html" class="ahref"> Index  </a></li>
-                <li> <a href="apropos.html" class="ahref"> A propos de moi  </a></li>
-                <li> <a href="mesreves.html"  class="ahref" > Mes rêves d'apprenant</a> </li>
-                <li> <a href="passions.html" class="ahref"> Mes passions </a></li>
+                    <li> <a href="apropos.html" class="ahref"> A propos de moi  </a></li>
+                    <li> <a href="mesreves.html"  class="ahref" > Mes rêves d'apprenant</a> </li>
+                    <li> <a href="passions.html" class="ahref"> Mes passions </a></li>
                 </ul> 
-            </div>
-             </header>   
+        </div>
+    </header>   
     <div class="contenu">
         <a href="./CV_pdf/CV_2023-03-08_Eric_Da-Silva-Rocha.pdf" target="_blank" class="cv">
             <img src="./Image/CV.png" alt="" class="cv">
@@ -41,14 +41,18 @@
             const toggle_btnIcon = document.querySelector('.toggle_btn i')
             const dropdown = document.querySelector('.dropdown')
         
-            toggle_btn.onclick = function (){
-                dropdown.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains ('open')
-        
-                toggle_btnIcon.classList = isOpen
-                ? 'fa-solid fa-xmark'
-                : 'fa-solid fa-bars'
-            }
+                toggle_btn.onclick = function (){
+                    dropdown.classList.toggle('open')
+                    const isOpen = dropDownMenu.classList.contains ('open')
+            
+                    toggle_btnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+                }
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                        } 
         </script>
 </body>
 </html>
