@@ -53,10 +53,6 @@
 }
 @media (min-width:992px) {
 
-.contenu{
-    padding-left: 25% ;
-    padding-right: 25%;
-}
 .music img{
     width: 300px;
     height: 300px;
@@ -96,10 +92,6 @@
     }
     .photo{
         margin-bottom: 30px;
-    }
-    .contenu{
-        padding-left: 15% ;
-        padding-right: 15%;
     }
     .music img{
         width: 150px;
@@ -182,6 +174,7 @@ body{
     color: white;
     text-align: center;
     line-height : 150%;
+    margin: 0px;
 
 }
 footer{
@@ -252,7 +245,6 @@ table th{
 .contenu{
     margin-top: 2%;
     text-align: center;
-    width: 100vh;
 }
 .contenu ul{
     list-style-type: none;
