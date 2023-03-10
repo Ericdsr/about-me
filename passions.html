@@ -41,7 +41,7 @@
         </figure>
     </div>
     <div class="jeux">
-        <h2> Les Jeux videos <i class="fa-solid fa-gamepad"></i></h2>
+        <h2> Les Jeux videos : <i class="fa-solid fa-gamepad"></i></h2>
             <figure>
                 <p><a href="./Image/jeux-video.jpg"> <img src="./Image/jeux-video.jpg" alt="jeuxvideo"></a></p>
                     <figcaption>
@@ -49,6 +49,9 @@
                     </figcaption>
             </figure>
     </div>
+            </div>
+            <div class="btn_darkmod">
+                <button onclick="myFunction()" class="forest">Forest</button>
             </div>
         </section>
     
@@ -68,6 +71,11 @@
                 ? 'fa-solid fa-xmark'
                 : 'fa-solid fa-bars'
             }
+
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                } 
         </script>
 </body>
 </html>

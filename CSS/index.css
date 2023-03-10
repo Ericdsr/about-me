@@ -106,10 +106,13 @@
             justify-content: center;
             align-items: center;
     }
+    .contenu{
+        
+    }
 }
 @media (max-width:800px) {
     body{
-        background-image: url(./pexels-kehn-hermano-3668371.jpg);
+        background-image: url(./pexels-ian-beckley-2440061.jpg);
         background-color: black;
         background-repeat: no-repeat;
         background-size: cover;
@@ -137,7 +140,7 @@
 }
 
 body{
-    background-image: url(./pexels-kehn-hermano-3668371.jpg);
+    background-image: url(./pexels-ian-beckley-2440061.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,9 +208,17 @@ footer{
 table{
     padding: 5px;
         border: 2px solid rgb(255, 255, 255 , 0.1);
+        border-collapse: collapse;
+}
+table td{
+    border: 2px solid rgb(255, 255, 255 , 0.1);
+}
+table th{
+    border: 2px solid rgb(255, 255, 255 , 0.1);
+    margin-top: 3px;
 }
 .contenu{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
@@ -236,7 +247,7 @@ table{
     height: 50%;
 }
 .dark-mode{
-    background-image: url(./pexels-ian-beckley-2440061.jpg);
+    background-image: url(./pexels-kehn-hermano-3668371.jpg);
 }
 .forest {   display: flex;  
             flex-direction: column;   
@@ -255,3 +266,9 @@ table{
 .forest:focus {   
     box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);   
     outline: 0; }
+.btn_darkmod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
