@@ -139,7 +139,7 @@
 }
 @media (max-width:800px) {
     body{
-        background-color: #66BFBF;
+        background-color: #161720;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -147,6 +147,7 @@
         height: auto;
         color: white;
         text-align: center;
+        position: relative;
     }
     
 }
@@ -166,7 +167,7 @@
 }
 
 body{
-    background-color: #66BFBF;
+    background-color: #161720;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,16 +176,17 @@ body{
     color: white;
     text-align: center;
     margin: 0px;
+    position: relative;
 
 }
 footer{
-    position: fixed;
-    bottom: 5px;
+    margin-top: 50px;
+    bottom: 0px;
     right: 10px;
     color: white;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    margin-top: 100px;
     text-align: end;
 }
 .ahref{
